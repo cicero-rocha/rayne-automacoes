@@ -1,5 +1,6 @@
 import { Mail, Instagram, MessageCircle, MapPin } from 'lucide-react';
 
+// Componente de contato - WhatsApp: 15991134942
 export default function Contact() {
   const contactMethods = [
     {
