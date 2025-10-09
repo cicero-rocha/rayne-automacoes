@@ -16,6 +16,8 @@ export default function Header() {
   const menuItems = [
     { label: 'Home', href: '#home' },
     { label: 'Serviços', href: '#servicos' },
+    { label: 'Calculadora', href: '#calculadora' },
+    { label: 'Orçamento', href: '#orcamento' },
     { label: 'Como Funciona', href: '#como-funciona' },
     { label: 'Depoimentos', href: '#depoimentos' },
     { label: 'Contato', href: '#contato' },

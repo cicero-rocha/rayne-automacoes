@@ -24,21 +24,30 @@ export default function Hero() {
             Transforme seu atendimento, vendas e processos com soluções de automação personalizadas para hamburguerias, salões, lojas e e-commerce
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+            <a
+              href="#calculadora"
+              className="group bg-gradient-to-r from-emerald-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 hover:shadow-2xl hover:scale-105 transition-all glow"
+            >
+              <span>Calcular Meu Preço</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a
+              href="#orcamento"
+              className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg border border-white/20 hover:bg-white/20 transition-all"
+            >
+              Orçamento Detalhado
+            </a>
+          </div>
+          
+          <div className="text-center">
             <a
               href="https://www.instagram.com/rayne.automacoes/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-gradient-to-r from-emerald-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 hover:shadow-2xl hover:scale-105 transition-all glow"
+              className="inline-flex items-center text-emerald-400 hover:text-emerald-300 transition-colors text-sm font-medium"
             >
-              <span>Peça sua Automação Gratuita</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a
-              href="#servicos"
-              className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg border border-white/20 hover:bg-white/20 transition-all"
-            >
-              Ver Serviços
+              📱 Ou fale diretamente no Instagram
             </a>
           </div>
 

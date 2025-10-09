@@ -80,6 +80,53 @@ export default function Services() {
           </p>
         </div>
 
+        {/* Informações de Preços */}
+        <div className="bg-gradient-to-r from-emerald-500/10 to-blue-600/10 rounded-2xl p-8 mb-12 border border-emerald-500/20">
+          <div className="text-center mb-6">
+            <h3 className="text-2xl font-bold text-white mb-2">
+              💰 Preços Transparentes e Justos
+            </h3>
+            <p className="text-gray-300">
+              Nossos preços variam conforme suas necessidades específicas
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div className="bg-slate-800/50 rounded-xl p-6">
+              <div className="text-3xl mb-2">📊</div>
+              <h4 className="text-white font-semibold mb-2">Volume de Mensagens</h4>
+              <p className="text-gray-400 text-sm">
+                Cobramos apenas pelo que você usa, com descontos progressivos
+              </p>
+            </div>
+            
+            <div className="bg-slate-800/50 rounded-xl p-6">
+              <div className="text-3xl mb-2">🔧</div>
+              <h4 className="text-white font-semibold mb-2">Funcionalidades</h4>
+              <p className="text-gray-400 text-sm">
+                Cada funcionalidade extra é precificada de forma justa
+              </p>
+            </div>
+            
+            <div className="bg-slate-800/50 rounded-xl p-6">
+              <div className="text-3xl mb-2">⚡</div>
+              <h4 className="text-white font-semibold mb-2">Sem Surpresas</h4>
+              <p className="text-gray-400 text-sm">
+                Use nossa calculadora e saiba exatamente quanto vai pagar
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-8">
+            <a
+              href="#calculadora"
+              className="inline-flex items-center bg-gradient-to-r from-emerald-500 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all"
+            >
+              🧮 Calcular Meu Preço Agora
+            </a>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
@@ -117,18 +164,24 @@ export default function Services() {
                   ))}
                 </ul>
 
-                <a
-                  href="https://www.instagram.com/rayne.automacoes/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`block text-center py-3 rounded-full font-semibold transition-all ${
-                    service.highlighted
-                      ? 'bg-gradient-to-r from-emerald-500 to-blue-600 text-white hover:shadow-lg glow'
-                      : 'bg-white/10 text-white hover:bg-white/20 border border-white/20'
-                  }`}
-                >
-                  Solicitar
-                </a>
+                <div className="space-y-2">
+                  <a
+                    href="#calculadora"
+                    className={`block text-center py-3 rounded-full font-semibold transition-all ${
+                      service.highlighted
+                        ? 'bg-gradient-to-r from-emerald-500 to-blue-600 text-white hover:shadow-lg glow'
+                        : 'bg-gradient-to-r from-blue-500 to-cyan-600 text-white hover:shadow-lg'
+                    }`}
+                  >
+                    Calcular Preço
+                  </a>
+                  <a
+                    href="#orcamento"
+                    className="block text-center py-2 rounded-full font-medium transition-all bg-white/10 text-white hover:bg-white/20 border border-white/20 text-sm"
+                  >
+                    Orçamento Detalhado
+                  </a>
+                </div>
               </div>
             );
           })}
