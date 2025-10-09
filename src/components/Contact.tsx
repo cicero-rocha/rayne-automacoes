@@ -6,7 +6,7 @@ export default function Contact() {
       icon: MessageCircle,
       title: 'WhatsApp',
       description: 'Fale conosco agora',
-      link: 'https://wa.me/5515991966602',
+      link: 'https://wa.me/5515991134942',
       linkText: 'Iniciar conversa',
       color: 'from-green-500 to-emerald-600',
     },
