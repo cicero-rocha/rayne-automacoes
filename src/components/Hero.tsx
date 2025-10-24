@@ -12,16 +12,15 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 rounded-full px-4 py-2 mb-8">
             <Sparkles className="w-4 h-4 text-emerald-400" />
-            <span className="text-emerald-400 text-sm font-medium">Automação Inteligente</span>
+            <span className="text-emerald-400 text-sm font-medium">Automação com IA</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Automatize seu negócio com{' '}
-            <span className="text-gradient">inteligência</span>
+            Rayne.IA: Automação Inteligente para seu negócio
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Transforme seu atendimento, vendas e processos com soluções de automação personalizadas para hamburguerias, salões, lojas e e-commerce
+            Soluções de automação com IA para empresas modernas. Atendimento, vendas e processos automatizados com tecnologia de ponta.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
@@ -42,12 +41,12 @@ export default function Hero() {
           
           <div className="text-center">
             <a
-              href="https://www.instagram.com/rayne.automacoes/"
+              href="https://www.instagram.com/rayne.ia/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-emerald-400 hover:text-emerald-300 transition-colors text-sm font-medium"
             >
-              📱 Ou fale diretamente no Instagram
+              📱 Ou fale diretamente no Instagram @rayne.ia
             </a>
           </div>
 

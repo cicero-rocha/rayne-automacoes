@@ -26,15 +26,15 @@ export default function Footer() {
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold text-white">
-                Rayne <span className="text-gradient">Automações</span>
+                Rayne<span className="text-gradient">.IA</span>
               </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Transformamos negócios através de automação inteligente. Soluções personalizadas para levar sua empresa ao próximo nível.
+              Soluções de automação inteligente com IA para empresas modernas. Transforme seu negócio com a Rayne.IA.
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/rayne.automacoes/"
+                href="https://www.instagram.com/rayne.ia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-800 p-3 rounded-full hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-600 transition-all"
@@ -42,7 +42,7 @@ export default function Footer() {
                 <Instagram className="w-5 h-5 text-white" />
               </a>
               <a
-                href="mailto:cicerorayne.automacoes@gmail.com"
+                href="mailto:contato@rayne.ia"
                 className="bg-slate-800 p-3 rounded-full hover:bg-gradient-to-br hover:from-blue-500 hover:to-cyan-600 transition-all"
               >
                 <Mail className="w-5 h-5 text-white" />
@@ -71,20 +71,20 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:cicerorayne.automacoes@gmail.com"
+                  href="mailto:contato@rayne.ia"
                   className="text-gray-400 hover:text-emerald-400 transition-colors text-sm"
                 >
-                  cicerorayne.automacoes@gmail.com
+                  contato@rayne.ia
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/rayne.automacoes/"
+                  href="https://www.instagram.com/rayne.ia/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-emerald-400 transition-colors text-sm"
                 >
-                  @rayne.automacoes
+                  @rayne.ia
                 </a>
               </li>
             </ul>
@@ -93,8 +93,8 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 pt-8">
           <div className="text-center text-gray-400 text-sm">
-            <p>&copy; {new Date().getFullYear()} Rayne Automações. Todos os direitos reservados.</p>
-            <p className="mt-2">Desenvolvido com tecnologia e inteligência</p>
+            <p>&copy; {new Date().getFullYear()} Rayne.IA. Todos os direitos reservados.</p>
+            <p className="mt-2">Desenvolvido com IA e tecnologia</p>
           </div>
         </div>
       </div>
